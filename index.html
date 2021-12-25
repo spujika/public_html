@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 	<head>
 	    <title>Tassie Long Drink</title>
 		<meta charset="utf-8"/>
@@ -46,6 +46,7 @@
 
     .buttonblock {
     position: absolute;
+		justify-content: space-between;
     left: 18.75vw;
     top:15%;
 		width: 75%;
@@ -207,8 +208,8 @@
 
 <div id="ld-age-bg" class="longdrink-age-bg">
 		     <div class="longdrink-age-checker">
-		          <div class="yes-button"><a class="close-age-popup"><img src="images/yes.png" /></a></div>
-		          <div class="no-button"><a href="https://giphy.com/explore/cat"><img src="images/no.png" /></a></div>
+		          <div class="yes-button"><a class="close-age-popup" aria-label="Legal drinking age"><img src="images/yes.webp" alt="Age verification YES button"></a></div>
+		          <div class="no-button"><a href="https://giphy.com/explore/cat" rel="noopener" aria-label="Not legal drinking age"><img src="images/no.webp" alt="Age verification NO button"></a></div>
 		     </div>
 		</div>
 
@@ -236,7 +237,7 @@
 		}
 		</script>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<script>
 		if (readCookie('longdrink_age_check') === 'true') {
 		} else {
@@ -249,13 +250,13 @@
 		</script>
 
     <div class="buttonblock">
-		<a id="prodBtn"><img src="images/products.png" class="button" ></a>
-    <a id="aboutBtn"><img src="images/about.png" class="button" ></a>
-    <a href="https://www.facebook.com/tassielongdrink" target="_blank"><img src="images/contact.png" class="button" ></a>
+		<a id="prodBtn" aria-label="Products"><img src="images/products.webp" class="button" alt="Products button"></a>
+    <a id="aboutBtn" aria-label="About us"><img src="images/about.webp" class="button" alt="About us button"></a>
+    <a href="https://www.facebook.com/tassielongdrink" rel="noopener" target="_blank" aria-label="Contact us"><img src="images/contact.webp" class="button" alt="Contact us button"></a>
     </div>
       <div class="socialblock">
-    <a href="https://www.facebook.com/tassielongdrink" target="_blank"><img src="images/fb.png" class="social"></a>
-    <a href="https://www.instagram.com/tassielongdrink" target="_blank"><img src="images/inst.png" class="social"></a>
+    <a href="https://www.facebook.com/tassielongdrink" rel="noopener" target="_blank" aria-label="Facebook"><img src="images/fb.webp" class="social" alt="Facebook button"></a>
+    <a href="https://www.instagram.com/tassielongdrink" rel="noopener" target="_blank" aria-label="Instagram"><img src="images/inst.webp" class="social" alt="Instagram button"></a>
     </div>
 
 		<div class="bottomblock">
@@ -267,7 +268,7 @@
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
-    <p style="text-align: center;"><img src="images/cans50.png" class="modalimg"/> <br /><br />Thanks for visiting the website. <br /> <br />This button is currently in development. We will provide more information soon. <br /><br /> In the mean time, please contact us via Facebook if you would like to know more! </p>
+    <p style="text-align: center;"><img src="images/cans50.webp" class="modalimg"/> <br /><br />Thanks for visiting the website. <br /> <br />This button is currently in development. We will provide more information soon. <br /><br /> In the mean time, please contact us via Facebook if you would like to know more! </p>
   </div>
 </div>
 
